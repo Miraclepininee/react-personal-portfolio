@@ -51,7 +51,7 @@ const Sidenav = () => {
               <span className='pl-4'>Contact</span> 
             </a>
 
-            
+          
           </div>
         ) :(
           ''
