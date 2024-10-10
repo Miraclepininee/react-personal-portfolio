@@ -5,7 +5,7 @@ import {FaTwitter, FaFacebook, FaInstagram, FaLinkedinIn, FaGithub } from 'react
 const main = () => {
   return (
     <div id='main'>
-        <img className='w-full h-screen object-cover object-left scale-x-[+1]' src="/images/miracle2.jpg" alt="" />
+        <img className='w-full h-screen object-cover object-left scale-x-[+1]' src="https://avatars.githubusercontent.com/u/110922869?v=4" alt="" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
             <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
                 <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Miracle Pininee</h1>
