@@ -51,10 +51,14 @@ const Main = () => {
           </h2>
           <div className='flex justify-between pt-6 max-w-[200px] w-full'>
             <FaTwitter className='cursor-pointer' size={20} />
-            <FaFacebook className='cursor-pointer' size={20} />
+            <a href="https://facebook.com/pininee.miracle" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className='cursor-pointer' size={20} />
+            </a>
             <FaInstagram className='cursor-pointer' size={20} />
             <FaLinkedinIn className='cursor-pointer' size={20} />
-            <FaGithub className='cursor-pointer' size={20} />
+            <a href="https://github.com/Miraclepininee" target="_blank" rel="noopener noreferrer">
+              <FaGithub className='cursor-pointer' size={20} />
+            </a>
           </div>
         </div>
       </div>
