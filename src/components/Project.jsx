@@ -14,10 +14,10 @@ const Project = () => {
                 And am always ready to learn new skill and improve the little i know to move on with my career.
             </p>
             <div className='grid sm:grid-cols-2 gap-12' >
-                <ProjectItem img={mealImg} title='Educative App' />
+                <ProjectItem img={mealImg} title='Educative App' link='https://privalex1.netlify.app/' />
                 <ProjectItem img={ecomerceImg} title='Ecomerce App' />
                 <ProjectItem img={personalImg} title='Personal App' />
-                <ProjectItem img={portfolioImg} title='Portfolio' />
+                <ProjectItem img={portfolioImg} title='EpcAcademy' />
             </div>
         </div>
     )

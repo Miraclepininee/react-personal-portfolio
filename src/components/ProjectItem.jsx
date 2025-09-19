@@ -9,7 +9,17 @@ const ProjectItem = ({ img, title }) => {
           {title}
         </h3>
         <p className='pd-4 pt-2 text-white text-center'>React Js</p>
-        <a href="">
+        <a
+          href={
+            title === 'Educative App'
+              ? 'https://epc-educative-website.netlify.app/'
+              : title === 'EpcAcademy'
+              ? 'https://privalex1.netlify.app/'
+              : ''
+          }
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <p className='text-center p-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer text-lg' >More Info</p>
         </a>
       </div>
