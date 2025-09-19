@@ -3,29 +3,32 @@ import WorkItem from './WorkItem'
 
 const data = [
   {
-    year: 2019,
-    title: 'Video Editor',
-    duration: '3 years',
+    year: "07/2024 - 01/2025",
+    title: 'Freelance Frontend Developer, Privalex',
+    duration: '7 months',
     details:
-      'I learned video editing the year 2020 which was my first <em>Tect Skill</em> in the tech industries and without any ideal of how the computer operate and what it can do and i thought that was the best thing to do as a young boy who love technology from the age of 13 trying to know what really computer is made up of, and why is everything working the way it is, and how was it done.'
+      'Built and deployed 3+ full-stack cybersecurity web applications using React, HTML5, CSS3, and JavaScript, serving 500+ daily users. Optimized performance (32% faster load times) via code splitting, lazy loading, and image compression. Collaborated with designers (Figma) to deliver pixel-perfect UIs. Established CI/CD pipeline with GitHub Actions and Netlify, reducing deployment time by 60%. Enhanced SEO and accessibility, improving search rankings by 25%.'
   },
   {
-    year: 2020,
-    title: 'Youtuber',
-    duration: '2 years',
-    details: 'I was really interested in learning about youtube and search engine because i spend most of my time watching other peoples videos and they edited it, and they make money from it also not just editing the videos and leave it in the local machine, but exposing it to the world what they are good at doing, then i took a step to learn how to be a Youtuber and not just but also good at it, like others. '
+    year: "01/2025 - Present",
+    title: 'Programming Instructor, EPC Academy',
+    duration: 'Ongoing',
+    details:
+      'Mentor 15+ students in JavaScript and web development through interactive workshops and coding exercises. Developed curriculum materials and hands-on projects. Provided one-on-one support, resulting in 85% course completion rate. Facilitated group programming sessions and code reviews to promote collaborative learning.'
   },
   {
-    year: 2021,
-    title: 'Facebook',
-    duration: '1 year',
-    details: '2021 I realise that facebook was one of the largest wedsite or application with the highest users in the world i had advice myself that <em>what is the advantage of using facebookin my feed</em> and <strong>what problem it solve for me and my career </strong>, e.g what is the problem i have that facebook can help me solve properly an give me the result a looking for in the little skill i have at hand at the moment.'
+    year: "05/2020 - 07/2020",
+    title: 'CS50 Student, Harvard University (edX)',
+    duration: '2 months',
+    details:
+      'Completed comprehensive computer science curriculum covering algorithms, data structures, memory management, and web development. Developed problem-solving skills through hands-on programming projects and debugging exercises.'
   },
   {
-    year: 2022,
-    title: 'Web development',
-    duration: '3 years',
-    details: 'I thought web development was easy i never knew there was hidden history untold about the web, i had a strong desire to be a developer thinking it was just <em>HTML, CSS, JAVASCRIPT </em>that was needed and nothing more until i finish html, css, javascript, and i was introduce to node.js i was like what i happening and what is this thing called node self from no where  and is this even use for, and at this stage i recieve a laptop on the process of consistent practice on a sunday night when i was going out of the door post my laptop bag cut and my laptop was inside everythng hit the ground, the screen went blank'
+    year: "2025",
+    title: 'React & JavaScript Student, Udemy',
+    duration: 'Ongoing',
+    details:
+      'Mastered ES6+ features and built multiple projects demonstrating proficiency in DOM manipulation, asynchronous JavaScript, and modern workflows. Learning advanced React patterns, custom hooks, Context API, useReducer, and exploring Next.js and Redux for state management.'
   }
 ]
 const Work = () => {
