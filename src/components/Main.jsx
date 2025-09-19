@@ -21,7 +21,7 @@ const Main = () => {
         url="https://prod.spline.design/Um4Atpi4Q0ZeoMAC/scene.splinecode"
         style={{
           position: 'absolute',
-          top: '-60px', // Move up to crop bottom
+          bottom: '-60px', // Move up to crop bottom
           left: 0,
           width: '100vw',
           height: 'calc(100vh + 60px)', // Increase height to keep top visible
