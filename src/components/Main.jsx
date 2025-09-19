@@ -22,6 +22,7 @@ const Main = () => {
         style={{
           position: 'absolute',
           top: 0,
+          button: -3, 
           left: 0,
           width: '100vw',
           height: '100vh',
