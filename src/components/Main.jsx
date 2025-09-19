@@ -36,7 +36,7 @@ const Main = () => {
             I'm a
             <TypeAnimation
               sequence={[
-                'Developer',
+                'Front End Developer',
                 3000,
                 'Coder',
                 1000,
