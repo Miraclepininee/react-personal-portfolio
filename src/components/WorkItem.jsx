@@ -11,7 +11,7 @@ const WorkItem = ({ year, title, duration, details }) => {
           <span className='text-lg font-semibold text-[#001b5e]'>{title}</span>
           <span className='my-1 text-sm font-normal leading-none text-stone-400'>{duration}</span>
         </p>
-        <p className='my-2 text-base font-normal text-stone-500'>{details}</p>
+        <p className='my-2 text-base text-white font-normal text-stone-500'>{details}</p>
       </li>
 
     </ol>
