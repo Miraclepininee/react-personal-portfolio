@@ -22,13 +22,25 @@ const Main = () => {
         style={{
           position: 'absolute',
           top: 0,
-          button: -3, 
           left: 0,
           width: '100vw',
           height: '100vh',
           zIndex: 0,
         }}
       ></spline-viewer>
+        {/* Overlay to hide watermark */}
+        <div
+          style={{
+            position: 'absolute',
+            right: 0,
+            bottom: 0,
+            width: '180px', // Adjust width as needed
+            height: '60px', // Adjust height as needed
+            // background: 'rgba(255,255,255,0.7)', // Semi-transparent white
+            zIndex: 1,
+            pointerEvents: 'none',
+          }}
+        />
       {/* Overlay content */}
       <div className='w-full h-screen absolute top-0 left-0 bg-white/50 z-10'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
