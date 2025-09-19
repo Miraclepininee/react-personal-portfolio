@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <div className="custom-gradient-bg min-h-screen">
+      <div className="custom-gradient-bg">
         <Sidenav />
         <Main />
         <Work />
