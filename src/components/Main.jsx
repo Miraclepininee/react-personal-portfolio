@@ -15,16 +15,16 @@ const Main = () => {
   }, []);
 
   return (
-    <div id='main' className="relative w-full h-screen">
+  <div id='main' className="relative w-full h-screen overflow-hidden">
       {/* Spline background */}
       <spline-viewer
         url="https://prod.spline.design/Um4Atpi4Q0ZeoMAC/scene.splinecode"
         style={{
           position: 'absolute',
-          top: 0,
+          top: '-60px', // Move up to crop bottom
           left: 0,
           width: '100vw',
-          height: '100vh',
+          height: 'calc(100vh + 60px)', // Increase height to keep top visible
           zIndex: 0,
         }}
       ></spline-viewer>
